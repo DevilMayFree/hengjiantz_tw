@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'pticons';
+  src: url('./pticons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="pticon-"], [class*=" pticon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pticons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pticon-heart-2:before {
+  content: "\e920";
+}
+.pticon-heart:before {
+  content: "\e919";
+}
+.pticon-star-2:before {
+  content: "\e918";
+}
+.pticon-star:before {
+  content: "\e917";
+}
+.pticon-add:before {
+  content: "\e915";
+}
+.pticon-remove:before {
+  content: "\e916";
+}
+.pticon-checkmark:before {
+  content: "\e914";
+}
+.pticon-shopping-bag:before {
+  content: "\e908";
+}
+.pticon-phone:before {
+  content: "\e913";
+}
+.pticon-instagram:before {
+  content: "\e90b";
+}
+.pticon-telegram:before {
+  content: "\e90e";
+}
+.pticon-twitter:before {
+  content: "\e90f";
+}
+.pticon-location:before {
+  content: "\e910";
+}
+.pticon-envelope:before {
+  content: "\e911";
+}
+.pticon-chevron-down:before {
+  content: "\e905";
+}
+.pticon-chevron-up:before {
+  content: "\e90c";
+}
+.pticon-chevron-right:before {
+  content: "\e906";
+}
+.pticon-chevron-left:before {
+  content: "\e907";
+}
+.pticon-search:before {
+  content: "\e904";
+}
+.pticon-arrow-left-2:before {
+  content: "\e903";
+}
+.pticon-arrow-right-2:before {
+  content: "\e902";
+}
+.pticon-arrow-left:before {
+  content: "\e901";
+}
+.pticon-arrow-right:before {
+  content: "\e900";
+}
